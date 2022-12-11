@@ -1,0 +1,4 @@
+\chapter{Einleitung}
+Künstliche Intelligenz ist etwas, das mich schon seit \\
+%todo write an introduction 
+In dieser Seminararbeit werde ich versuchen den Spieler des Spiels Space Invaders durch eine KI zu ersetzen. Dafür werde ich  verschiedene Möglichkeiten betrachten wie Bestärkendes Lernen (Reinforcement Learning) oder Entscheidungsbäume um zu diese Aufgabenstellung zu lösen. Ich werde versuchen bei Beispielen mit Fußnoten darauf zu verweisen wo es im Code zu finden und änderbar ist.

@@ -1,0 +1,33 @@
+ \chapter{Gliederung}
+ \textbf{Seminararbeitstitel}\\
+ \hspace*{20mm}\textbf{1. Einleitung}\\
+  \hspace*{40mm}\textbf{1.1 Hinführung zum Thema }\\
+  \hspace*{40mm}\textbf{1.2 Ziele der Seminararbeit }     \\
+ \hspace*{20mm}\textbf{2. Über Space Invaders}\\
+ \hspace*{40mm}\textbf{2.1 Technisches }     \\
+ \hspace*{40mm}\textbf{2.2 Ziel des Spiels }\\
+ \hspace*{20mm}\textbf{3. Neuronale Netze}\\
+  \hspace*{40mm}\textbf{3.1 Aufbau}\\
+    \hspace*{60mm}\textbf{3.1.1 Feedforward Netz}\\
+    \hspace*{60mm}\textbf{3.1.2 Rekurrentes Netz}\\
+  \hspace*{40mm}\textbf{3.2 Preprocessing}\\
+   \hspace*{40mm}\textbf{3.3 Anwendung im Projekt}\\
+ \hspace*{20mm}\textbf{4. Maschinelles Lernen }\\
+  \hspace*{40mm}\textbf{4.1 Supervised Learning}\\
+  \hspace*{40mm}\textbf{4.2 Unsupervised Learning}\\
+   \hspace*{40mm}\textbf{4.3 Reinforcement Learning}\\
+    \hspace*{60mm}\textbf{4.3.1 Theorie}\\
+    \hspace*{60mm}\textbf{4.3.2 Anwendung im Projekt}\\
+  \hspace*{20mm}\textbf{5. Abschluss}\\
+   \hspace*{40mm}\textbf{5.1 Fazit}\\
+   \hspace*{60mm}\textbf{5.1.1 Erreichen der Ziele}\\
+   \hspace*{60mm}\textbf{5.1.2 Verbesserungsmöglichkeiten}\\
+   \hspace*{40mm}\textbf{5.2 Schluss}\\
+ 
+  
+  
+    
+ 
+  
+  
+ 

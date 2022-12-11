@@ -1,0 +1,533 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{1606.01540}{misc}{}
+      \name{author}{7}{}{%
+        {{hash=7ae2a0efeaf9c031f9b420bcb1c19e54}{%
+           family={Brockman},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ece7baf9b320c51ead8e24c1c6386dbf}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Vicki},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1c9e26679bbf72679894fbc2d3a86eb1}{%
+           family={Pettersson},
+           familyi={P\bibinitperiod},
+           given={Ludwig},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5167ef9d0b77bf68557730648baac9b7}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3e09bd2a25d237ebdaed560a07c0451e}{%
+           family={Schulman},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d0b3008e85b1a8b38f46556abf1791c7}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e9fec85bbce1b087a6ebefe26e73f7bf}{%
+           family={Zaremba},
+           familyi={Z\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce46cc7360f33a11d3532ad41aff3485}
+      \strng{fullhash}{87cdccf072890926f8955924be595134}
+      \strng{bibnamehash}{ce46cc7360f33a11d3532ad41aff3485}
+      \strng{authorbibnamehash}{ce46cc7360f33a11d3532ad41aff3485}
+      \strng{authornamehash}{ce46cc7360f33a11d3532ad41aff3485}
+      \strng{authorfullhash}{87cdccf072890926f8955924be595134}
+      \field{labelalpha}{Bro+16}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{OpenAI Gym}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb arXiv:1606.01540
+      \endverb
+    \endentry
+    \entry{das}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c0a5747c199d2e51d4c9734b011ea01d}{%
+           family={Chrislb},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0a5747c199d2e51d4c9734b011ea01d}
+      \strng{fullhash}{c0a5747c199d2e51d4c9734b011ea01d}
+      \strng{bibnamehash}{c0a5747c199d2e51d4c9734b011ea01d}
+      \strng{authorbibnamehash}{c0a5747c199d2e51d4c9734b011ea01d}
+      \strng{authornamehash}{c0a5747c199d2e51d4c9734b011ea01d}
+      \strng{authorfullhash}{c0a5747c199d2e51d4c9734b011ea01d}
+      \field{labelalpha}{Chr05}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Wikipedia}
+      \field{month}{7}
+      \field{title}{Schema eines künstlichen Neurons: Künstliches Neuron mit Index j}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb :Bilder/ArtificialNeuronModel_deutsch.png:PNG-Bild
+      \endverb
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/w/index.php?curid=224561
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/w/index.php?curid=224561
+      \endverb
+    \endentry
+    \entry{koehrsen2018overfitting}{article}{}
+      \name{author}{1}{}{%
+        {{hash=497da9db1d429bac70255719f7dc4e88}{%
+           family={Koehrsen},
+           familyi={K\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{497da9db1d429bac70255719f7dc4e88}
+      \strng{fullhash}{497da9db1d429bac70255719f7dc4e88}
+      \strng{bibnamehash}{497da9db1d429bac70255719f7dc4e88}
+      \strng{authorbibnamehash}{497da9db1d429bac70255719f7dc4e88}
+      \strng{authornamehash}{497da9db1d429bac70255719f7dc4e88}
+      \strng{authorfullhash}{497da9db1d429bac70255719f7dc4e88}
+      \field{labelalpha}{Koe18}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Towards Data Science}
+      \field{title}{Overfitting vs. underfitting: A complete example}
+      \field{year}{2018}
+      \verb{file}
+      \verb :C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/1566949131.pdf:PDF
+      \endverb
+    \endentry
+    \entry{li2017deep}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ecfc4d691cc8482ff5f23c608c7d26bc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuxi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecfc4d691cc8482ff5f23c608c7d26bc}
+      \strng{fullhash}{ecfc4d691cc8482ff5f23c608c7d26bc}
+      \strng{bibnamehash}{ecfc4d691cc8482ff5f23c608c7d26bc}
+      \strng{authorbibnamehash}{ecfc4d691cc8482ff5f23c608c7d26bc}
+      \strng{authornamehash}{ecfc4d691cc8482ff5f23c608c7d26bc}
+      \strng{authorfullhash}{ecfc4d691cc8482ff5f23c608c7d26bc}
+      \field{labelalpha}{Li17}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1701.07274}
+      \field{title}{Deep reinforcement learning: An overview}
+      \field{year}{2017}
+      \verb{file}
+      \verb :C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/1701.07274.pdf:PDF
+      \endverb
+    \endentry
+    \entry{MartinThoma2014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=20210041ce7db5b38eaba43f68992efe}{%
+           family={MartinThoma},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{20210041ce7db5b38eaba43f68992efe}
+      \strng{fullhash}{20210041ce7db5b38eaba43f68992efe}
+      \strng{bibnamehash}{20210041ce7db5b38eaba43f68992efe}
+      \strng{authorbibnamehash}{20210041ce7db5b38eaba43f68992efe}
+      \strng{authornamehash}{20210041ce7db5b38eaba43f68992efe}
+      \strng{authorfullhash}{20210041ce7db5b38eaba43f68992efe}
+      \field{labelalpha}{Mar14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Wikipedia}
+      \field{month}{5}
+      \field{title}{Sigmoid-function}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Sigmoid-function-2.svg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Sigmoid-function-2.svg
+      \endverb
+    \endentry
+    \entry{RLdia}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9dd23a44a8ba02b0b7cc94908e6d68f4}{%
+           family={Megajuice},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd23a44a8ba02b0b7cc94908e6d68f4}
+      \strng{fullhash}{9dd23a44a8ba02b0b7cc94908e6d68f4}
+      \strng{bibnamehash}{9dd23a44a8ba02b0b7cc94908e6d68f4}
+      \strng{authorbibnamehash}{9dd23a44a8ba02b0b7cc94908e6d68f4}
+      \strng{authornamehash}{9dd23a44a8ba02b0b7cc94908e6d68f4}
+      \strng{authorfullhash}{9dd23a44a8ba02b0b7cc94908e6d68f4}
+      \field{labelalpha}{Meg17}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Wikipedia}
+      \field{month}{4}
+      \field{title}{Reinforcement learning diagram}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:Reinforcement_learning_diagram.svg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:Reinforcement_learning_diagram.svg
+      \endverb
+    \endentry
+    \entry{quinlan1986induction}{article}{}
+      \name{author}{1}{}{%
+        {{hash=93f17727abac1f79653e7f68831507d6}{%
+           family={Quinlan},
+           familyi={Q\bibinitperiod},
+           given={J.\bibnamedelimi Ross},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{fullhash}{93f17727abac1f79653e7f68831507d6}
+      \strng{bibnamehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{authorbibnamehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{authornamehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{authorfullhash}{93f17727abac1f79653e7f68831507d6}
+      \field{extraname}{1}
+      \field{labelalpha}{Qui86}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine learning}
+      \field{number}{1}
+      \field{title}{Induction of decision trees}
+      \field{volume}{1}
+      \field{year}{1986}
+      \field{pages}{81\bibrangedash 106}
+      \range{pages}{26}
+      \verb{file}
+      \verb :C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/BF00116251.pdf:PDF
+      \endverb
+    \endentry
+    \entry{quinlan}{article}{}
+      \name{author}{1}{}{%
+        {{hash=93f17727abac1f79653e7f68831507d6}{%
+           family={Quinlan},
+           familyi={Q\bibinitperiod},
+           given={J.\bibnamedelimi Ross},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{fullhash}{93f17727abac1f79653e7f68831507d6}
+      \strng{bibnamehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{authorbibnamehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{authornamehash}{93f17727abac1f79653e7f68831507d6}
+      \strng{authorfullhash}{93f17727abac1f79653e7f68831507d6}
+      \field{extraname}{2}
+      \field{labelalpha}{Qui96}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys (CSUR)}
+      \field{number}{1}
+      \field{title}{Learning decision tree classifiers}
+      \field{volume}{28}
+      \field{year}{1996}
+      \field{pages}{71\bibrangedash 72}
+      \range{pages}{2}
+      \verb{file}
+      \verb :C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/QU96.pdf:PDF
+      \endverb
+    \endentry
+    \entry{roser2021charakterisierung}{book}{}
+      \name{author}{1}{}{%
+        {{hash=85f2ef5e454ab86c995a5decce3a5f54}{%
+           family={Röser},
+           familyi={R\bibinitperiod},
+           given={Alexander\bibnamedelima Maximilian},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Arbeitspapiere der FOM}%
+      }
+      \strng{namehash}{85f2ef5e454ab86c995a5decce3a5f54}
+      \strng{fullhash}{85f2ef5e454ab86c995a5decce3a5f54}
+      \strng{bibnamehash}{85f2ef5e454ab86c995a5decce3a5f54}
+      \strng{authorbibnamehash}{85f2ef5e454ab86c995a5decce3a5f54}
+      \strng{authornamehash}{85f2ef5e454ab86c995a5decce3a5f54}
+      \strng{authorfullhash}{85f2ef5e454ab86c995a5decce3a5f54}
+      \field{labelalpha}{Rös21}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{79}
+      \field{title}{Charakterisierung von schwacher und starker Künstlicher Intelligenz}
+      \field{year}{2021}
+      \verb{file}
+      \verb :C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/1759172820.pdf:PDF
+      \endverb
+    \endentry
+    \entry{sharma2017activation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1a9ba99937a36acb679ef24b0648eeec}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Sagar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=02b76ea846825e9079301c2264e967fd}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2a981cdebb500cb081aee6ab3896c41c}{%
+           family={Athaiya},
+           familyi={A\bibinitperiod},
+           given={Anidhya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{37065766f46d4cb23db895ce6a0ad8da}
+      \strng{fullhash}{37065766f46d4cb23db895ce6a0ad8da}
+      \strng{bibnamehash}{37065766f46d4cb23db895ce6a0ad8da}
+      \strng{authorbibnamehash}{37065766f46d4cb23db895ce6a0ad8da}
+      \strng{authornamehash}{37065766f46d4cb23db895ce6a0ad8da}
+      \strng{authorfullhash}{37065766f46d4cb23db895ce6a0ad8da}
+      \field{labelalpha}{SSA17}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{towards data science}
+      \field{number}{12}
+      \field{title}{Activation functions in neural networks}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{pages}{310\bibrangedash 316}
+      \range{pages}{7}
+      \verb{file}
+      \verb Datei zum Text:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/310-316,Tesma412,IJEAST.pdf:PDF
+      \endverb
+    \endentry
+    \entry{1978}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ffac5b12befc307be9c8bad8d467d2c5}{%
+           family={Taito},
+           familyi={T\bibinitperiod},
+           given={Kabushiki\bibnamedelima Kaisha},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffac5b12befc307be9c8bad8d467d2c5}
+      \strng{fullhash}{ffac5b12befc307be9c8bad8d467d2c5}
+      \strng{bibnamehash}{ffac5b12befc307be9c8bad8d467d2c5}
+      \strng{authorbibnamehash}{ffac5b12befc307be9c8bad8d467d2c5}
+      \strng{authornamehash}{ffac5b12befc307be9c8bad8d467d2c5}
+      \strng{authorfullhash}{ffac5b12befc307be9c8bad8d467d2c5}
+      \field{labelalpha}{Tai78}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{US Copyright Office}
+      \field{number}{PA0000120007}
+      \field{title}{Space invaders}
+      \field{type}{patentus}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{year}{1978}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cocatalog.loc.gov/cgi-bin/Pwebrecon.cgi?v1=1&ti=1,1&SEQ=20221105063508&Search_Arg=Space Invaders&Search_Code=TALL&CNT=25&REC=0&RD=0&RC=0&PID=TeH7MUs-D-LOzuUl1AWCckFSz&SID=1
+      \endverb
+      \verb{url}
+      \verb https://cocatalog.loc.gov/cgi-bin/Pwebrecon.cgi?v1=1&ti=1,1&SEQ=20221105063508&Search_Arg=Space%20Invaders&Search_Code=TALL&CNT=25&REC=0&RD=0&RC=0&PID=TeH7MUs-D-LOzuUl1AWCckFSz&SID=1
+      \endverb
+    \endentry
+    \entry{Thompson2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=da90f6c5040b4614f2486d979088ca67}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{da90f6c5040b4614f2486d979088ca67}
+      \strng{fullhash}{da90f6c5040b4614f2486d979088ca67}
+      \strng{bibnamehash}{da90f6c5040b4614f2486d979088ca67}
+      \strng{authorbibnamehash}{da90f6c5040b4614f2486d979088ca67}
+      \strng{authornamehash}{da90f6c5040b4614f2486d979088ca67}
+      \strng{authorfullhash}{da90f6c5040b4614f2486d979088ca67}
+      \field{labelalpha}{Tho15}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Youtube}
+      \field{month}{11}
+      \field{title}{Space Invaders}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/wynand1004/Projects/tree/master/Space Invaders
+      \endverb
+      \verb{url}
+      \verb https://github.com/wynand1004/Projects/tree/master/Space%20Invaders
+      \endverb
+    \endentry
+    \entry{traeger2003kunstliche}{article}{}
+      \name{author}{7}{}{%
+        {{hash=d35d5504cf330e5d8f8ac4ce284527f2}{%
+           family={Traeger},
+           familyi={T\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab790a82eef856c84beb62e9e7892d9e}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6dba6538b0ddaa7b7696aebcfdd263ec}{%
+           family={Geldner},
+           familyi={G\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=71618c438bdebd1f3eec09907cf4b39c}{%
+           family={Morin},
+           familyi={M\bibinitperiod},
+           given={AM},
+           giveni={A\bibinitperiod}}}%
+        {{hash=243803ea3f30788c81d886416b5a1d63}{%
+           family={Putzke},
+           familyi={P\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=be32bf5270ffa3d934fc315847f08434}{%
+           family={Wulf},
+           familyi={W\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6b9db44dca42dce568843d0aea048f46}{%
+           family={Eberhart},
+           familyi={E\bibinitperiod},
+           given={LHJ},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7921adbbf8256eaafe737f19e23592ab}
+      \strng{fullhash}{2b41f1a8ba4ef32904f18fa17f513695}
+      \strng{bibnamehash}{7921adbbf8256eaafe737f19e23592ab}
+      \strng{authorbibnamehash}{7921adbbf8256eaafe737f19e23592ab}
+      \strng{authornamehash}{7921adbbf8256eaafe737f19e23592ab}
+      \strng{authorfullhash}{2b41f1a8ba4ef32904f18fa17f513695}
+      \field{labelalpha}{Tra+03}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Der Anaesthesist}
+      \field{number}{11}
+      \field{title}{Künstliche neuronale Netze}
+      \field{volume}{52}
+      \field{year}{2003}
+      \field{pages}{1055\bibrangedash 1061}
+      \range{pages}{7}
+      \verb{file}
+      \verb pdf:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/s00101-003-0576-x20160924-22051-1c6u133-with-cover-page-v2.pdf:PDF
+      \endverb
+    \endentry
+    \entry{williams1992simple}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6cbc29ad7fd57ffdb9ed4728418fd988}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Ronald\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6cbc29ad7fd57ffdb9ed4728418fd988}
+      \strng{fullhash}{6cbc29ad7fd57ffdb9ed4728418fd988}
+      \strng{bibnamehash}{6cbc29ad7fd57ffdb9ed4728418fd988}
+      \strng{authorbibnamehash}{6cbc29ad7fd57ffdb9ed4728418fd988}
+      \strng{authornamehash}{6cbc29ad7fd57ffdb9ed4728418fd988}
+      \strng{authorfullhash}{6cbc29ad7fd57ffdb9ed4728418fd988}
+      \field{labelalpha}{Wil92}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine learning}
+      \field{number}{3}
+      \field{title}{Simple statistical gradient-following algorithms for connectionist reinforcement learning}
+      \field{volume}{8}
+      \field{year}{1992}
+      \field{pages}{229\bibrangedash 256}
+      \range{pages}{28}
+      \verb{file}
+      \verb Pdf zur Quelle:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/BF00992696.pdf:PDF
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

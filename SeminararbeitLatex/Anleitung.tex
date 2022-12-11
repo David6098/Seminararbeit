@@ -1,0 +1,48 @@
+\chapter{Anleitung}
+
+Diese Vorlage besteht aus folgenden Dateien, welche alle im gleichen Verzeichnis liegen:
+
+\begin{center}
+\begin{tabular}{ll}
+Dateiname & Inhalt\\\hline
+Seminararbeit.tex & Struktur des Gesamtdokumentes\\
+Quellen.bin & Literaturverzeichnis\\
+Deckblatt.tex & Deckblatt der Arbeit\\
+Anleitung.tex & Dieser Anleitungstext (wird in der finalen Arbeit nicht ben\"otigt)\\
+Beispielkapitel1.tex & Beispieltext (wird in der finalen Arbeit nicht ben\"otigt)\\
+Beispielkapitel2.tex & Beispieltext (wird in der finalen Arbeit nicht ben\"otigt)\\
+Anhang.tex & Anhang der Seminararbeit
+\end{tabular}
+\end{center}
+
+\section{Das Deckblatt anpassen}
+In der Datei \texttt{Deckblatt.tex} muss der Titel der Arbeit sowie der eigene Name eingetragen werden. Beim Titel k\"onnen (falls gew\"unscht) manuelle Zeilenumbr\"uche erzwungen werden, indem ein \textbackslash{}\textbackslash{} an das Ende der Zeile gesetzt wird:
+
+\begin{lstlisting}[language=tex]
+-Hier Thema eintragen-\\
+-Hier Thema eintragen-\\
+-Hier Thema eintragen-
+\end{lstlisting}
+
+\section{Grundstruktur der Arbeit anlegen}
+Das Grundprinzip dabei ist, dass die verschiedenen Teile der Arbeit auf einzelne Dateien verteilt werden, welche dann jeweils \"ubersichtlich und leicht zu verwalten bleiben. In der Hauptdatei \texttt{Seminararbeit.tex} findet sich daf\"ur folgender Abschnitt:
+
+\begin{lstlisting}[language=tex]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hier eigene Dokumente einbinden
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Anleitung}
+\input{Beispielkapitel1}
+\input{Beispielkapitel2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{lstlisting}
+
+F\"ur das erste eigene Kapitel der Seminararbeit kann dann z. B. eine leere Datei \texttt{Einleitung.tex} angelegt werden und mittels des \texttt{input} Befehls in das Hauptdokument eingebunden werden. Ebenso k\"onnen hier die Beispielkapitel und diese Anleitung aus dem Dokument entfernt werden, wenn diese nicht mehr ben\"otigt werden.
+
+\section{Seminararbeit mit Texmaker erzeugen}
+Um die Seminararbeit im Programm Texmaker bearbeiten und daraus ein PDF generieren zu k\"onnen, ist es am einfachsten, alle in der obigen Tabelle genannten Dateien in Texmaker zu \"offnen. Anschlie\ss{}end in Texmaker die Datei \texttt{Seminararbeit.tex} aufrufen und diese \"uber das Men\"u als Hauptdokument festlegen:
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Bilder/anleitung2.png}
+\end{center}

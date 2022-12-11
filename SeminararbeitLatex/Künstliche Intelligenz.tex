@@ -1,0 +1,132 @@
+
+\chapter{Alternativen zum Bestärkenden Lernen}\label{AL}
+\sectionmark{Alternativen zu RL}
+Die in \ref{KI} Definition von künstlicher Intelligenz wirft aber die Frage auf, wo künstliche Intelligenz überhaupt beginnt. Um diese Frage zu beantworten  werden in \ref{AL} nun zwei Alternativen zum bestärken Lernen vorgestellt.\\
+Eine weitere Idee eine künstliche Intelligenz zu trainieren, welche sich nicht auf ein neuronales Netz stützt besteht darin Entscheidungsbäume zu verwenden. Da das System in welchem sich der Spieler bewegt nicht überaus kompliziert ist, ist diese Möglichkeit durchaus machbar.
+\section{Entscheidungsbäume}
+%todo Definition und kleines Intro
+Entscheidungsbäume zählen zu den wissensbasierten Systemen, die, wie der Name schon vermuten lässt, Wissen, das aus Beobachtungen oder Regeln besteht, speichern(vgl. \cite[vgl.][S.81-82]{quinlan1986induction}. Sie sind auch oft einfacher zu verstehen als andere Systeme wie zum Beispiel Neuronale Netzwerke. Entscheidungsbäume sind aber manchmal so komplex, dass die wahre Herausforderung darin besteht, die Pfade zu finden, welche zum gewünschten Ergebnis führen.
+\label{EB}
+\subsubsection{Implementierung im Projekt}
+\begin{center}
+
+
+	\begin{sequencediagram}
+
+		\newthread[white]{p}{Spieler:}
+		\newinst[2]{b}{Baum:}
+		\newinst[2]{a}{aktuellerKnoten:}
+		\newinst[2]{n}{nächsterKnoten:}
+			\begin{call}{p}{moveGeben(4)}{b}{r}
+				\begin{call}{b}{moveGeben(4)}{a}{r}
+					\begin{call}{a}{moveGeben(4)}{n}{r}
+					\end{call}
+				\end{call}
+			\end{call}
+	\label{D1} 
+	\end{sequencediagram}
+	\textit{\small{Sequenzdiagramm einer möglichen Aktion des Spielers}}\\
+	
+\end{center}
+In diesem Diagramm kann man erkennen, wie der Spieler den Baum nach einer Aktion fragt. Bei der Methode moveGeben(4) drückt die 4 einen Übergabewert, der einen simulierten Score übergibt aus. Den tatsächlichen Score als Übergabewert zu benutzen ist auch möglich aber weniger effektiv, da vereinfacht ausgedrückt je früher ein Gegner zerstört wird, der nächste Gegner zerstört werden kann. Die Funktion F, die den Übergabewert errechnet, besitzt eine ähnliche Aufgabe zur Aktivierungsfunktion im Neuronalen Netz. Zurzeit wird der simulierte Score so berechnet, wobei $t_{1}$ die Zeit in Sekunden zu des Durchlaufs, $t_{2}$ die Zeit in Sekunden zum Zeitpunkt der Abfrage und \textit{score} die Tatsächliche Punktzahl ist: %todo eleganter formulieren
+\begin{center}
+	$F(score,t_{1},t_{2})=score \cdot \dfrac{t_{2}-t_{1}}{10}$
+\end{center}
+Man könnte diese Funktion noch verbessern, indem man den außerdem die Position des Gegners miteinbezieht, da falls der äußerste Gegner zerstört wird, die Schritte bis zum Näherkommen der Gegner zunehmen. Somit ist es wichtiger äußere Gegner zu zerstören als Innere.\\
+Der Aktuelle Knoten vergleicht die Punktzahl seiner Kinder untereinander und gibt mit einer 19:1 Wahrscheinlichkeit den Move des Knotens mit der höchsten Punktzahl zurück.
+\subsubsection*{Objektdiagramm}
+\begin{center}
+
+
+
+	\begin{tikzpicture}[node distance = 2cm]
+		\node (Spielkonsole)[objekt, rectangle split, rectangle split parts=2]
+		{			
+			\textbf{Spielkonsole}
+			\nodepart{second}self.Art ="Baum"\\ self.Baum = Baum
+		};
+		\node (Baum)[objektb, rectangle split, rectangle split parts=2, right =of Spielkonsole]
+		{			
+			\textbf{Baum}
+			\nodepart{second}self.wurzel = K1
+			\\self.aktuellerKoten = K2
+		};
+		\draw[myarrow](Spielkonsole) -- (Baum);
+		\node (K1)[objektb, rectangle split, rectangle split parts=2, below = of Baum]
+		{			
+			\textbf{K1}
+			\nodepart{second}self.Kinder =[K2,K3,K4,K5]\\ self.score = 0 \\ self.move = None \\ 
+		};
+		\draw[myarrow](Baum) -- (K1);
+		   \node (AuxNode01) [text width=0cm, below=of K1] {};
+		 \node (K3)[objekts, rectangle split, rectangle split parts=2, left =0.5cm of AuxNode01]
+		{			
+			\textbf{K3}
+			\nodepart{second}self.Kinder =[]\\ self.score = 0 \\ self.move =  \dq l \dq{} \\ 
+		};
+		\node (K2)[objekts, rectangle split, rectangle split parts=2, left =1cm of K3]
+		{			
+			\textbf{K2}
+			\nodepart{second}self.Kinder =[]\\ self.score = 0 \\ self.move = \dq r \dq{} \\ 
+			
+		};
+		\node (K4)[objekts, rectangle split, rectangle split parts=2, right =0.5cm of AuxNode01]
+		{			
+			\textbf{K4}
+			\nodepart{second}self.Kinder =[]\\ self.score = 0 \\ self.move = \dq s \dq{} \\ 
+		};
+		\node (K5)[objektm, rectangle split, rectangle split parts=2, right =1cm of K4]
+		{			
+			\textbf{K5}
+			\nodepart{second}self.Kinder =[]\\ self.score = 0 \\ self.move = None \\ 
+			
+		};
+	\draw[myarrow](K1) -- (K2);\draw[myarrow](K1) -- (K3);\draw[myarrow](K1) -- (K4);\draw[myarrow](K1) -- (K5);
+	\end{tikzpicture}
+	\textit{\small{Objektdiagramm, dass einen Ausschnitt eines Baums zeigt}}
+\end{center}
+Wie im Sequenzdiagramm schon erläutert werden die Aktionen des Spielers durch eine rekursive Methode ermittelt, die die Punktzahlen der Kinder des aktuellen Knotens vergleicht und die Aktion des Kindes mit der Höchsten,mit einer Wahrscheinlichkeit von 95\% zurückgibt. Was passiert aber wenn keine Kinder vorhanden sind oder der 20ste Fall eintritt? In beiden Fällen wird zufällig eine Aktion ausgewählt und zurückgegeben. Im ersten Fall müssen zusätzlich noch Kinder erzeugt werden. 
+\subsubsection{Probleme und Einschränkungen}
+Eine Beobachtung, welche ich im Laufe der Testläufe des Programms gemacht habe, besteht darin, dass die zufällige Art des Entscheidens, die ich verwendet habe, nur dann funktioniert wenn die Monsteranzahl relativ klein ist(ca. 12).%todo
+
+Ein weiteres Problem das mir bei meiner Implementierung im Weg stand, besteht im Speicherplatzverbrauchs des Baums. Denn während ein Neuronales Netz eine fixe Größe hat, nimmt die des Baums stetig zu. So hat ein Baum nach vier Aktionen des Spielers zum Beispiel vier Knoten und nach 16 Aktionen 16 Knoten. Im Gegensatz dazu bleibt die Größe eines künstlichen neuronalen Netzes konstant. Hinzu kommt ebenfalls, dass nicht alle  Pfade im Baum sinnvoll sind, weil sie zum Beispiel das Gleiche aussagen. Folgendes Beispiel:\\
+\begin{center}
+
+
+	\begin{tabular}[h]{r|c|c|c|c}
+		 & 1 & 2 & 3 & 4\\
+		\hline
+		Aktion des Spielers & - & r & - & r\\
+		\hline
+		Alternativ & r & r & - & -\\
+
+	\end{tabular}\\
+	\textit{\small{ r $\stackrel{\wedge}{=}$ Schritt nach rechts; - $\stackrel{\wedge}{=}$ keine Bewegung}}
+	%todo Verbessern
+	\end{center}
+	
+
+Auf dieser Tabelle kann man sieht man ,dass es mehrere Aktionsabfolgen des Spielers gibt, welche zum exakt gleichen Ergebnis führen. In diesem Fall bewegt sich Spieler zwei Schritte nach rechts. Die Abfolge der Aktion ist in diesem Fall egal, da nur die Position des Spielers des Spielers zum Zeitpunkt eines Schusses ein Unterschied auf das Ergebnis macht.
+\subsubsection{Lösungsmöglichkeiten}
+Einige Maßnahmen die zur Verbesserung des Baumes getroffen werden könnten werden im Folgenden aufgezählt und kurz erläutert:\\
+	\begin{itemize}
+	\item Man kann Pfade, welche nicht zum Ergebnis führen, trimmen (prunen), in dem man beispielsweise den Pfad durch ein einzelnes Blatt ersetzt. Dies führt dazu , dass Speicherplatz frei wird, der dann wiederum für neue Pfade genutzt werden kann.% Für Gewöhnlich basieren diese Pruningtechniken auf Kosten-Komplexität Modellen, pessimistischen Genauigkeitseinschätzungen oder auf der Minimierung der Nachrichtenlänge, die den Baum samt Daten beschreibt. can be included if optimized
+	\item Auch können mehrere Bäume zu Einem zusammengefügt werden, wodurch sich die Komplexität des Baumes vergrößert, indem nun in diesem Baum mehr Pfade enthalten sind(vgl. \citeauthor{quinlan} \citeyear{quinlan} S.72). Dies trägt in meinem spezifischen Fall, aber nicht zur Lösung des Problems des begrenzten Speicherplatzes bei. Im Gegenteil es verstärkt dieses Problem nur weiter, weil der neue Baum komplexer ist und somit mehr Speicherplatz verbraucht.
+	\item Indem man in einem bestehenden Baum, neue Wege einfügt anstatt immer wieder, den kompletten Baum nach einer Durchlauf des Programms neu zu Generieren verringert die Zeit, die dafür benötigt wird vor allem die ersten ersten Züge, welche bei den meisten Bäumen ähnlich sind zu generieren (vgl. \citeauthor{quinlan} \citeyear{quinlan} S.72).
+	\end{itemize} %todo vlt andere Quellen suchen
+		  
+\subsection{Ein einfacher Algorithmus}
+Alternativ könnte man auch einfach selbst einen Algorithmus schreiben mit dem die Aktionen des Spielers bestimmt werden können, wie folgendes Minimalbeispiel in Pseudocode:\\
+\begin{center}
+
+
+ def moveGeben(x):\\
+	\tab if x $<$ -180:\\
+		\tab \tab  shoot()\\
+	\tab else:\\
+		\tab \tab  moveleft() \\
+		\label{algor}
+		\end{center}
+\section{Fazit}
+Während der in \ref{EB} vorgestellt Entscheidungsbaum und der dazugehörige Algorithmus  meine Kriterien für künstliche Intelligenz erfüllen, nämlich Lern- und Problemlösungsfähkeit (, wenn auch nur für geringe Monsterzahlen), ist der Algorithmus selbst bei der losesten Definition von Künstlicher Intelligenz nicht intelligent, da die Lernfähigkeit fehlt. Ich habe in trotzdem aufgenommen um aufzuzeigen, dass es keiner Neuronalen Netze oder Entscheidungsbäume bedarf um die einfache Aufgabe, Space Invaders zu schlagen, zu meistern. 
+		

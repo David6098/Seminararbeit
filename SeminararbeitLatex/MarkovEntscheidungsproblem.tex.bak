@@ -1,0 +1,6 @@
+\chapter{Markov Entscheidungs-Probleme}
+\glqq{}Markov Entscheidungs-Probleme (kurz MDP für markov decision process) sind ein Modell für Probleme, bei denen ein Agent versucht die größtmögliche Belohnung (reward) zu erzielen. Er bewegt sich dazu durch eine Menge von Zuständen (states), indem er aus einer Menge von Aktionen (actions)
+wählt. [...] Ziel ist es, eine Strategie (policy) zu finden, welche jedem Zustand die Aktion zuordnet, durch die der höchste Gesamtgewinn (also die höchste Summe über alle erzielten Gewinne) erwartet werden kann.\grqq{}
+ (\citeauthor{dammanneinfuhrung} \citeyear{dammanneinfuhrung} S.2)
+\section{Bezug zum Thema}
+Im Falle meiner Arbeit ist der \textit{Agent} der Spieler, die \textit{Belohnung (reward)} die erreichte Punktzahl und die Strategie wird im Neuronalen Netz berechnet

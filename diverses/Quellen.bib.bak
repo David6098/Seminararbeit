@@ -1,0 +1,91 @@
+% Encoding: UTF-8
+
+@Article{Koza1991,
+  author       = {Koza, John R. and others},
+  date         = {1991},
+  journaltitle = {Artificial life II},
+  title        = {Genetic evolution and co-evolution of computer programs},
+  pages        = {603--629},
+  volume       = {10},
+  journal      = {Artificial life II},
+  publisher    = {Citeseer},
+  year         = {1991},
+}
+
+@Article{Kaelbling1996,
+  author  = {Kaelbling, Leslie Pack and Littman, Michael L. and Moore, Andrew W.},
+  title   = {Reinforcement learning: A survey},
+  pages   = {237--285},
+  volume  = {4},
+  journal = {Journal of artificial intelligence research},
+  year    = {1996},
+}
+
+@Book{Nielsen,
+  author    = {Nielsen, Michael A.},
+  title     = {Neural networks and deep learning},
+  publisher = {Determination press San Francisco, CA},
+  volume    = {25},
+  year      = {2015},
+}
+
+@Article{TiefesBlau,
+  author    = {Campbell, Murray and Hoane Jr, A Joseph and Hsu, Feng-hsiung},
+  title     = {Deep blue},
+  number    = {1-2},
+  pages     = {57--83},
+  volume    = {134},
+  journal   = {Artificial intelligence},
+  publisher = {Elsevier},
+  year      = {2002},
+}
+
+@Online{DeepMind,
+  author  = {Christoph Behrens},
+  date    = {26. Februar 2015},
+  title   = {Google-Software meistert selbständig \qlqq{}Space Invaders"},
+  url     = {https://www.sueddeutsche.de/wissen/kuenstliche-intelligenz-google-software-meistert-selbstaendig-space-invaders-1.2369168},
+  urldate = {2022-01-22},
+}
+
+@Article{szepesvari2010algorithms,
+  author    = {Szepesv{\'a}ri, Csaba},
+  title     = {Algorithms for reinforcement learning},
+  number    = {1},
+  pages     = {1--103},
+  volume    = {4},
+  journal   = {Synthesis lectures on artificial intelligence and machine learning},
+  publisher = {Morgan \& Claypool Publishers},
+  year      = {2010},
+}
+
+@InProceedings{henderson2018deep,
+  author    = {Henderson, Peter and Islam, Riashat and Bachman, Philip and Pineau, Joelle and Precup, Doina and Meger, David},
+  booktitle = {Proceedings of the AAAI conference on artificial intelligence},
+  title     = {Deep reinforcement learning that matters},
+  number    = {1},
+  volume    = {32},
+  year      = {2018},
+}
+
+@InProceedings{riedmiller2005neural,
+  author       = {Riedmiller, Martin},
+  booktitle    = {European conference on machine learning},
+  title        = {Neural fitted Q iteration--first experiences with a data efficient neural reinforcement learning method},
+  organization = {Springer},
+  pages        = {317--328},
+  year         = {2005},
+}
+
+@Article{mnih2015human,
+  author    = {Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Rusu, Andrei A and Veness, Joel and Bellemare, Marc G and Graves, Alex and Riedmiller, Martin and Fidjeland, Andreas K and Ostrovski, Georg and others},
+  title     = {Human-level control through deep reinforcement learning},
+  number    = {7540},
+  pages     = {529--533},
+  volume    = {518},
+  journal   = {nature},
+  publisher = {Nature Publishing Group},
+  year      = {2015},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

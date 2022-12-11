@@ -1,0 +1,24 @@
+\chapter{Erweiterte Literaturliste}
+\section{Deep Blue}
+Das Deep Blue computer chess system ist eines der berühmtesten Beispiele eines Computers, der ein Spiel spielt. Leider handelt es sich bei ihm leider nicht um eine KI, aber es ist meiner Meinung nach trotzdem gut als eine Art Einleitungsgedanke geeignet, da es gleich meiner geplanten künstlichen Intelligenz ein Beispiel eines Systems ist, das ein Spiel spielen kann.\cite{TiefesBlau}
+
+\section{Reinforcement learning: A survey}
+Diese Quelle handelt von Reinforcement Learning, also bestärkendem Lernen, einer Methode des Trainierens Neuronaler Netze. Aufgrund der Beispiele in Kapitel 8 des Artikels bin ich zuversichtlich, dass bestärkendes Lernen auch auf meine neuronalen Netzwerke anwendbar ist.
+\cite{Kaelbling1996}
+\section{Genetic evolution and co-evolution of computer programs}
+Dieser Artikel beschäftigt sich damit, wie Computerprogramme automatisch selbst vom Computer geschrieben werden, nur basierend auf der gemessenen Leistung eines Programmes, um ein bestimmtes Problem zu lösen. Er beschäftigt sich zwar nicht auf Neuronalen Netzwerken, aus welchen meine KI wahrscheinlich bestehen wird gibt aber ein gutes Verständnis über den generellen Ablauf der Evolution hierarchischer Computerprogramme und somit eine Übersicht über einen Backup-Plan falls es mit Neuronalen Netzen nicht funktioniert.\cite{Koza1991}
+\section{Google-Software meistert selbständig \glqq{} Space Invaders \grqq{}}
+Dieser Artikel handelt von einer relativ neuen künstlichen Intelligenz von Deep Mind, einer Google Tochterfirma, dem \glqq{}Deep-Q-Network\grqq{} , die Video-Spiele wie Space Invaders oder Pac-Man spielen kann. Das Interessante an der KI besteht darin, dass nur mit Zielvorgabe und Input ohne irgendwelche Strategien, die KI selbstständig besser als professionelle Spieler werden konnte. Es wäre entweder ein guter Einleitungsgedanke oder eine Messlatte für die Bewertung.
+\cite{DeepMind}
+\section{Neural networks and deep learning}
+Von diesem Buch ist im Moment besonders Kapitel 1.3 für mich interessant, da dort der Aufbau von Neuronalen Netzen erläutert wird, die das Grundgerüst meiner Künstlichen Intelligenz sein werden.
+\cite{Nielsen}
+\section{Algorithms for reinforcement learning }
+Hier werden Beispiele von State of the Art Algorithmen aufgeführt. Da dieser Artikel aber aus 2010 ist muss ich noch überprüfen ob die Algorithmen noch immer State of theArt sind.
+\cite{szepesvari2010algorithms}
+\section{Neural fitted Q iteration-first experiences with a data efficent neural reinforcment learning}
+Handelt von einer Methode des bestärkenden Lernens für die es inzwischen effizientere Methoden gibt, trotzdem aber noch für mein Projekt genutzt werden könnte.
+\cite{riedmiller2005neural}
+\section{Human-level control through deep reinforcement learning}
+Ein Beispiel für State of the Art
+\cite{mnih2015human}

@@ -1,0 +1,209 @@
+% Encoding: UTF-8
+@book{latex:companion,
+  author = {Frank Mittelbach and Michel Gossens
+            and Johannes Braams and David Carlisle
+            and Chris Rowley},
+  year = {2004},
+  title = {The \LaTeX{} Companion},
+  publisher = {Addison-Wesley Professional},
+  edition = {2}
+}
+
+@book{latex2e,
+  author = {Leslie Lamport},
+  year = {1994},
+  title = {\LaTeX: a Document Preparation System},
+  publisher = {Addison Wesley},
+  address = {Massachusetts},
+  edition = {2}
+}
+
+@article{knuth:1984,
+  title={Literate Programming},
+  author={Donald E. Knuth},
+  journal={The Computer Journal},
+  volume={27},
+  number={2},
+  pages={97--111},
+  year={1984},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{lesk:1977,
+  title={Computer Typesetting of Technical Journals on {UNIX}},
+  author={Michael Lesk and Brian Kernighan},
+  booktitle={Proceedings of American Federation of
+             Information Processing Societies: 1977
+             National Computer Conference},
+  pages={879--888},
+  year={1977},
+  address={Dallas, Texas}
+}
+
+@Article{sharma2017activation,
+  author  = {Sharma, Sagar and Sharma, Simone and Athaiya, Anidhya},
+  journal = {towards data science},
+  title   = {Activation functions in neural networks},
+  year    = {2017},
+  number  = {12},
+  pages   = {310--316},
+  volume  = {6},
+  file    = {Datei zum Text:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/310-316,Tesma412,IJEAST.pdf:PDF},
+}
+
+@Article{williams1992simple,
+  author    = {Williams, Ronald J},
+  journal   = {Machine learning},
+  title     = {Simple statistical gradient-following algorithms for connectionist reinforcement learning},
+  year      = {1992},
+  number    = {3},
+  pages     = {229--256},
+  volume    = {8},
+  file      = {Pdf zur Quelle:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/BF00992696.pdf:PDF},
+  publisher = {Springer},
+}
+
+@Misc{1606.01540,
+  author = {Greg Brockman and Vicki Cheung and Ludwig Pettersson and Jonas Schneider and John Schulman and Jie Tang and Wojciech Zaremba},
+  title  = {OpenAI Gym},
+  year   = {2016},
+  eprint = {arXiv:1606.01540},
+}
+
+@Article{quinlan,
+  author    = {Quinlan, J. Ross},
+  journal   = {ACM Computing Surveys (CSUR)},
+  title     = {Learning decision tree classifiers},
+  year      = {1996},
+  number    = {1},
+  pages     = {71--72},
+  volume    = {28},
+  file      = {:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/QU96.pdf:PDF},
+  publisher = {ACM New York, NY, USA},
+}
+
+@Article{quinlan1986induction,
+  author    = {Quinlan, J. Ross},
+  journal   = {Machine learning},
+  title     = {Induction of decision trees},
+  year      = {1986},
+  number    = {1},
+  pages     = {81--106},
+  volume    = {1},
+  file      = {:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/BF00116251.pdf:PDF},
+  publisher = {Springer},
+}
+
+@Misc{das,
+  author       = {Chrislb},
+  howpublished = {Wikipedia},
+  month        = jul,
+  title        = {Schema eines künstlichen Neurons: Künstliches Neuron mit Index j},
+  year         = {2005},
+  file         = {:Bilder/ArtificialNeuronModel_deutsch.png:PNG-Bild},
+  timestamp    = {2022-08-22},
+  url          = {https://commons.wikimedia.org/w/index.php?curid=224561},
+  urldate      = {2022-08-22},
+}
+
+@Article{traeger2003kunstliche,
+  author    = {Traeger, M and Eberhart, A and Geldner, G and Morin, AM and Putzke, C and Wulf, H and Eberhart, LHJ},
+  journal   = {Der Anaesthesist},
+  title     = {K{\"u}nstliche neuronale Netze},
+  year      = {2003},
+  number    = {11},
+  pages     = {1055--1061},
+  volume    = {52},
+  file      = {pdf:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/s00101-003-0576-x20160924-22051-1c6u133-with-cover-page-v2.pdf:PDF},
+  publisher = {Springer},
+}
+
+@Misc{dammanneinfuhrung,
+  author = {Dammann, Patrick},
+  title  = {Einf{\"u}hrung in das Reinforcement Learning},
+  year   = {2017},
+  file   = {:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/dammann_reinfocement-learning-report.pdf:PDF},
+}
+
+@Book{roser2021charakterisierung,
+  author    = {R{\"o}ser, Alexander Maximilian},
+  publisher = {Arbeitspapiere der FOM},
+  title     = {Charakterisierung von schwacher und starker K{\"u}nstlicher Intelligenz},
+  year      = {2021},
+  number    = {79},
+  file      = {:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/1759172820.pdf:PDF},
+}
+
+@Article{koehrsen2018overfitting,
+  author  = {Koehrsen, Will},
+  journal = {Towards Data Science},
+  title   = {Overfitting vs. underfitting: A complete example},
+  year    = {2018},
+  file    = {:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/1566949131.pdf:PDF},
+}
+
+@Article{li2017deep,
+  author  = {Li, Yuxi},
+  journal = {arXiv preprint arXiv:1701.07274},
+  title   = {Deep reinforcement learning: An overview},
+  year    = {2017},
+  file    = {:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/1701.07274.pdf:PDF},
+}
+
+@Misc{RLdia,
+  author       = {Megajuice},
+  howpublished = {Wikipedia},
+  month        = apr,
+  title        = {Reinforcement learning diagram},
+  year         = {2017},
+  url          = {https://commons.wikimedia.org/wiki/File:Reinforcement_learning_diagram.svg},
+  urldate      = {2022-11-04},
+}
+
+@Article{william,
+  author    = {Williams, Ronald J},
+  journal   = {Machine learning},
+  title     = {Simple statistical gradient-following algorithms for connectionist reinforcement learning},
+  year      = {1992},
+  number    = {3},
+  pages     = {229--256},
+  volume    = {8},
+  file      = {:C\:/Users/avid/Desktop/W-Seminar/Seminararbeit/seminararbeit/diverses/BF00992696.pdf:PDF},
+  publisher = {Springer},
+}
+
+@Misc{1978,
+  author       = {Kabushiki Kaisha Taito},
+  howpublished = {US Copyright Office},
+  title        = {Space invaders},
+  year         = {1978},
+  nationality  = {American},
+  number       = {PA0000120007},
+  timestamp    = {2022-11-05},
+  type         = {patentus},
+  url          = {https://cocatalog.loc.gov/cgi-bin/Pwebrecon.cgi?v1=1&ti=1,1&SEQ=20221105063508&Search_Arg=Space Invaders&Search_Code=TALL&CNT=25&REC=0&RD=0&RC=0&PID=TeH7MUs-D-LOzuUl1AWCckFSz&SID=1},
+  urldate      = {2022-11-05},
+  yearfiled    = {1981},
+}
+
+@Misc{Thompson2015,
+  author       = {Christian Thompson},
+  howpublished = {Youtube},
+  month        = nov,
+  note         = {Aufgerufen am 05.11.2022},
+  title        = {Space Invaders},
+  year         = {2015},
+  url          = {https://github.com/wynand1004/Projects/tree/master/Space Invaders},
+}
+
+@Misc{MartinThoma2014,
+  author       = {MartinThoma},
+  howpublished = {Wikipedia},
+  month        = may,
+  title        = {Sigmoid-function},
+  year         = {2014},
+  url          = {https://commons.wikimedia.org/wiki/File:Sigmoid-function-2.svg},
+  urldate      = {2022-11-05},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

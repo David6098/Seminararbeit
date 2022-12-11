@@ -1,0 +1,631 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.17)  12 APR 2022 14:01
+entering extended mode
+**./Gliederunggut.tex
+(Gliederunggut.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27>
+! Undefined control sequence.
+l.1  \chapter
+             {Gliederung}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  \chapter{G
+               liederung}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no G in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+! Undefined control sequence.
+l.2  \Huge
+          \textbf{Seminararbeitstitel}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3  \hspace*{20mm}\Large
+                         \textbf{1. Einleitung}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--26
+[]
+ []
+
+
+Overfull \hbox (25.07626pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Sem-
+ []
+
+
+Overfull \hbox (7.02774pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 i-
+ []
+
+
+Overfull \hbox (30.87482pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 narar-
+ []
+
+
+Overfull \hbox (23.47905pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 beit-
+ []
+
+
+Overfull \hbox (16.03601pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 sti-
+ []
+
+
+Overfull \hbox (12.93744pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 tel 
+ []
+
+
+Overfull \hbox (65.8499pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 1.
+ []
+
+
+Overfull \hbox (20.9721pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Ein-
+ []
+
+
+Overfull \hbox (34.81927pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 leitung 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 1.1
+ []
+
+
+Overfull \hbox (58.1386pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Hinfuhrung
+ []
+
+
+Overfull \hbox (21.08322pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 zum
+ []
+
+
+Overfull \hbox (34.83313pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Thema 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 1.2
+ []
+
+
+Overfull \hbox (23.95822pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Ziele
+ []
+
+
+Overfull \hbox (16.39577pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 der
+ []
+
+
+Overfull \hbox (25.07626pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Sem-
+ []
+
+
+Overfull \hbox (7.02774pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 i-
+ []
+
+
+Overfull \hbox (30.87482pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 narar-
+ []
+
+
+Overfull \hbox (19.64574pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 beit
+ []
+
+
+Overfull \hbox (65.8499pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 2.
+ []
+
+
+Overfull \hbox (25.56238pt too wide) in paragraph at lines 1--26
+[]\OT1/cmr/bx/n/10 Uber
+ []
+
+
+Overfull \hbox (28.74983pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Space
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 In-
+ []
+
+
+Overfull \hbox (31.95259pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 vaders 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 2.1
+ []
+
+
+Overfull \hbox (27.32625pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Tech-
+ []
+
+
+Overfull \hbox (17.95267pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 nis-
+ []
+
+
+Overfull \hbox (20.98738pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ches
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 2.2
+ []
+
+
+Overfull \hbox (18.68741pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Ziel
+ []
+
+
+Overfull \hbox (16.19574pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 des
+ []
+
+
+Overfull \hbox (28.97345pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Spiels 
+ []
+
+
+Overfull \hbox (65.8499pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 3.
+ []
+
+
+Overfull \hbox (24.49294pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Neu-
+ []
+
+
+Overfull \hbox (30.93039pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ronale
+ []
+
+
+Overfull \hbox (29.12486pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Netze 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 3.1
+ []
+
+
+Overfull \hbox (22.43044pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Auf-
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 bau 
+ []
+
+
+Overfull \hbox (194.35529pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 3.1.1
+ []
+
+
+Overfull \hbox (24.27766pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 feed-
+ []
+
+
+Overfull \hbox (17.83325pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 for-
+ []
+
+
+Overfull \hbox (24.70125pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ward
+ []
+
+
+Overfull \hbox (23.85405pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Netz 
+ []
+
+
+Overfull \hbox (194.35529pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 3.1.2
+ []
+
+
+Overfull \hbox (34.92345pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Rekur-
+ []
+
+
+Overfull \hbox (30.35541pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 rentes
+ []
+
+
+Overfull \hbox (23.85405pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Netz 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 3.2
+ []
+
+
+Overfull \hbox (21.7013pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Pre-
+ []
+
+
+Overfull \hbox (20.70824pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 pro-
+ []
+
+
+Overfull \hbox (23.28735pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 cess-
+ []
+
+
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 3.3
+ []
+
+
+Overfull \hbox (18.91656pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 An-
+ []
+
+
+Overfull \hbox (23.47905pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 wen-
+ []
+
+
+Overfull \hbox (24.91653pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 dung
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 im
+ []
+
+
+Overfull \hbox (22.18045pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Pro-
+ []
+
+
+Overfull \hbox (19.3263pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 jekt 
+ []
+
+
+Overfull \hbox (65.8499pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 4.
+ []
+
+
+Overfull \hbox (63.27324pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Maschinelles
+ []
+
+
+Overfull \hbox (20.75685pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Ler-
+ []
+
+
+Overfull \hbox (18.04852pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 nen 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 4.1
+ []
+
+
+Overfull \hbox (16.61102pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Su-
+ []
+
+
+Overfull \hbox (20.54852pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 per-
+ []
+
+
+Overfull \hbox (25.45958pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 vised
+ []
+
+
+Overfull \hbox (32.73593pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Learn-
+ []
+
+
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 4.2
+ []
+
+
+Overfull \hbox (19.06934pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Un-
+ []
+
+
+Overfull \hbox (14.75824pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 su-
+ []
+
+
+Overfull \hbox (20.54852pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 per-
+ []
+
+
+Overfull \hbox (25.45958pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 vised
+ []
+
+
+Overfull \hbox (32.73593pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Learn-
+ []
+
+
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 4.3
+ []
+
+
+Overfull \hbox (17.72908pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Re-
+ []
+
+
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 in-
+ []
+
+
+Overfull \hbox (28.21515pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 force-
+ []
+
+
+Overfull \hbox (25.3957pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ment
+ []
+
+
+Overfull \hbox (32.73593pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Learn-
+ []
+
+
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (194.35529pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 4.3.1
+ []
+
+
+Overfull \hbox (23.49294pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 The-
+ []
+
+
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 o-
+ []
+
+
+Overfull \hbox (13.20134pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 rie 
+ []
+
+
+Overfull \hbox (194.35529pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 4.3.2
+ []
+
+
+Overfull \hbox (18.91656pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 An-
+ []
+
+
+Overfull \hbox (23.47905pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 wen-
+ []
+
+
+Overfull \hbox (24.91653pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 dung
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 im
+ []
+
+
+Overfull \hbox (22.18045pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Pro-
+ []
+
+
+Overfull \hbox (19.3263pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 jekt 
+ []
+
+
+Overfull \hbox (65.8499pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 5.
+ []
+
+
+Overfull \hbox (18.91656pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Ab-
+ []
+
+
+Overfull \hbox (34.372pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 schluss 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 5.1
+ []
+
+
+Overfull \hbox (24.64568pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Fazit 
+ []
+
+
+Overfull \hbox (194.35529pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 5.1.1
+ []
+
+
+Overfull \hbox (16.12492pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Er-
+ []
+
+
+Overfull \hbox (13.84023pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 re-
+ []
+
+
+Overfull \hbox (26.03459pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 ichen
+ []
+
+
+Overfull \hbox (16.39577pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 der
+ []
+
+
+Overfull \hbox (23.95822pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Ziele 
+ []
+
+
+Overfull \hbox (194.35529pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 5.1.2
+ []
+
+
+Overfull \hbox (140.86455pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Verbesserungsmoglichkeiten 
+ []
+
+
+Overfull \hbox (128.50539pt too wide) in paragraph at lines 1--26
+| \OT1/cmr/bx/n/10 5.2
+ []
+
+
+Overfull \hbox (36.22478pt too wide) in paragraph at lines 1--26
+\OT1/cmr/bx/n/10 Schluss 
+ []
+
+)
+! Emergency stop.
+<*> ./Gliederunggut.tex
+                       
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 24 strings out of 478927
+ 538 string characters out of 2853008
+ 293175 words of memory out of 3000000
+ 17983 multiletter control sequences out of 15000+600000
+ 403738 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,1n,12p,122b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
